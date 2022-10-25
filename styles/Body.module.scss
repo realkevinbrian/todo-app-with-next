@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+
+.body{
+    align-self: center;
+    min-width: 40%;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}

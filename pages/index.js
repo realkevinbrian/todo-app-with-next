@@ -6,11 +6,9 @@ import Body from './Body'
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.main}>
       <Banner/>
-      <div>
-        <Body/>
-      </div>
+      <Body/>
     </div>
   )
 }

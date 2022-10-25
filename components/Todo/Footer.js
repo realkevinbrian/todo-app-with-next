@@ -1,8 +1,9 @@
 import Link from "next/link"
+import styles from "../../styles/Footer.module.scss"
 
 function Footer() {
   return (
-    <div>
+    <div className={styles.wrapper}>
         
         <div>
             5 items left

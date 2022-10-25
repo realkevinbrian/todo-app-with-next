@@ -1,0 +1,13 @@
+.searchBoxWrapper {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    border-radius: 5px;
+    input{
+        padding: 20px 5px;
+        flex: 1;
+        border: 1px solid transparent;
+        outline: none;
+    }
+}

@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.todoItemWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    position: relative;
+    padding: 10px 0;
+
+    h4{
+        flex: 1;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        background-color: $DarkGrayishBlue;
+        height: 1px;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+.actionButton{
+    display: flex;
+    padding: 15px;
+}

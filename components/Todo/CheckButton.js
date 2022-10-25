@@ -1,6 +1,8 @@
+import styles from "../../styles/CheckButton.module.scss"
+
 function CheckButton() {
   return (
-    <div>
+    <div className={styles.checkBoxWrapper}>
         <input type="radio"/>
     </div>
   )

@@ -1,0 +1,17 @@
+@import "../styles/variables.scss";
+
+.HeaderWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &__navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        h1{
+            color: $VeryLightGray;
+        }
+    }
+}
