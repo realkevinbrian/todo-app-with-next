@@ -1,10 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Banner from '../components/Banner'
+import styles from '../styles/Home.module.scss'
+import Body from './Body'
 
 export default function Home() {
   return (
     <div>
+      <Banner/>
+      <div>
+        <Body/>
+      </div>
     </div>
   )
 }
